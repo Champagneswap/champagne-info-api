@@ -1,0 +1,15 @@
+{
+  "name": "ChampagneSwap Exchange LITE",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "ChampagneSwap Exchange LITE": {
+        "url": "https://api.bscgraph.org/subgraphs/name/champagneswap/exchange-lite",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
