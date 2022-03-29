@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "ChampagneSwap Exchange LITE": {
-        "url": "https://api.bscgraph.org/subgraphs/name/champagneswap/exchange-lite",
+        "url": "https://api.bscgraph.org/subgraphs/name/champagneswap/exchange",
         "headers": {
           "user-agent": "JS GraphQL"
         },

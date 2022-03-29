@@ -1,8 +1,8 @@
 # Documentation
 
-All PancakeSwap pairs consist of two different tokens. BNB is not a native currency in PancakeSwap, and is represented only by WBNB in the pairs. 
+All Champagneswap pairs consist of two different tokens. BNB is not a native currency in PancakeSwap, and is represented only by WBNB in the pairs. 
 
-The canonical WBNB address used by the PancakeSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
+The canonical WBNB address used by the Champagneswap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
 Results are cached for 5 minutes (or 300 seconds).
 
@@ -12,7 +12,7 @@ Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/summary`
+`GET https://api.champagneswap.com/api/summary`
 
 ### Response
 
@@ -32,13 +32,13 @@ Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/tokens`](https://api.pancakeswap.info/api/tokens)
+## [`/tokens`](https://api.Champagneswap.com/api/tokens)
 
-Returns the tokens in the top ~1000 pairs on PancakeSwap, sorted by reserves.
+Returns the tokens in the top ~1000 pairs on Champagneswap, sorted by reserves.
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/tokens`
+`GET https://api.champagneswap.com/api/tokens`
 
 ### Response
 
@@ -57,13 +57,13 @@ Returns the tokens in the top ~1000 pairs on PancakeSwap, sorted by reserves.
 }
 ```
 
-## [`/tokens/0x...`](https://api.pancakeswap.info/api/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82)
+## [`/tokens/0x...`](https://api.champagneswap.com/api/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82`
+`GET https://api.champagneswap.info/api/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82`
 
 ### Response
 
